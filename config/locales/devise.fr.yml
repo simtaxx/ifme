@@ -1,0 +1,61 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+en:
+  devise:
+    confirmations:
+      confirmed: "Votre adresse mail a bien été confirmé."
+      send_instructions: "Vous allez recevoir un e-mail avec les instructions pour confirmer votre adresse mail sous peu."
+      send_paranoid_instructions: "Si votre adresse mail existe dans notre base de donnée, vous allez recevoir un mail avec les instructions pour savoir comment confirmer votre adresse mail sous peu."
+    failure:
+      already_authenticated: "Vous êtes déjà connecté."
+      inactive: "Vous compte n'est pas encore activé."
+      invalid: "Non valide %{authentication_keys} ou alors votre mot de passe."
+      locked: "Votre compte est bloqué."
+      last_attempt: "Il vous reste un essai avant que votre compte ne soit bloqué."
+      not_found_in_database: "Non valide %{authentication_keys} ou alors votre mot de passe."
+      timeout: "Votre session a expiré. Veuillez vous reconecter pour continuer."
+      unauthenticated: "Vous avez besoin de vous connecter ou de vous inscrire pour continuer."
+      unconfirmed: "Vous devez confirmer votre adresse mail avant de continuer."
+    mailer:
+      confirmation_instructions:
+        subject: "Instructions de confirmations"
+      reset_password_instructions:
+        subject: "Instructions pour reinitialisé votre mot de passe"
+      unlock_instructions:
+        subject: "Intructions pour débloqué vore compte"
+      password_change:
+        subject: "Mot de passe modifié"
+    omniauth_callbacks:
+      failure: "Nous n'avons pas pu vous authentifié à %{kind} parceque \"%{reason}\"."
+      success: "Connexion avec succès à %{kind} compte."
+    passwords:
+      no_token: " Vous ne pouvez pas accéder à cette page sans avoir un mot de passe d'une nouvelle adresse mail. Si vous venez d'un email de récupération de mot de passe, assurez vous que avez utilisé l'adresse complète fournie."
+      send_instructions: " Vous allez recevoir un mail avec les instructions pour changer votre mot de passe sous peu."
+      send_paranoid_instructions: "Si votre adresse mail est déjà dans notre base de donnée, Vous allez recevoir un lien pour changer votre mot de passe dans votre boîte mail sous peu."
+      updated: "Votre mot de passe a bien été changer. Vous êtes actuellement connecté(e)."
+      updated_not_active: "Votre mot de passe a bien été changer."
+    registrations:
+      destroyed: "A bientôt! Your account has been successfully supprimé. On espère vous revoir bientôt."
+      signed_up: "Bienvenu! Vous êtes bien connecté(e)."
+      signed_up_but_inactive: "Vous êtes bien connecté(e). Toutefois, Nous avons pas réussis à vous connecter car votre compte n'est pas activé."
+      signed_up_but_locked: "Vous êtes bien connecté(e). Toutefois, Nous avons pas réussis à vous connecter car votre compte est bloqué."
+      signed_up_but_unconfirmed: "Un message avec un lie nde confirmation a été envoyer dans votre boîte mail. Suivez le lien pour activer votre compte."
+      update_needs_confirmation: "Votre compte a été modifié avec succès, mais nous avons besoin de vérifié votre nouvelle adresse mail. Consulter votre adresse mail et suivez le lien de confirmation pour confirmer votre nouvelle adresse mail."
+      updated: "Votre compte a été modifié avec succès."
+    sessions:
+      signed_in: "Vous vous êtes connecter."
+      signed_out: "Vous vous êtes déconecter."
+      already_signed_out: "Vous vous êtes déconecter."
+    unlocks:
+      send_instructions: "Vous allez recevoir un mail avec les instructions pour débloqué votre compte sous peu."
+      send_paranoid_instructions: "Si votre existe déjà, Vous allez recevoir un mail avec les informations pour débloqué votre compte sous peu."
+      unlocked: "Votre compte a été débloqué avec succès. Connecter vous pour continuer."
+  errors:
+    messages:
+      already_confirmed: "Déjà confimé, essayer de vous connecter."
+      confirmation_period_expired: "Besoin d'être confimé dans %{period}, veuillez réessayer"
+      expired: "Votre session a expiré, Veuillez réessayer."
+      not_found: "Introuvable."
+      not_locked: "n'étais pas bloqué"
+      not_saved:
+        one: "Une erreur interdit %{resource} pour être suavegardé:"
+        other: "%{count} erreurs interdisent cette %{resource} pour être sauvegardé."
